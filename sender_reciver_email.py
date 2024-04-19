@@ -105,11 +105,6 @@ def receive_email():
         result_label.config(text="An error occurred: " + str(e), fg="red")
 
 
-def populate_fields():
-    sender_email_entry.insert(0, "nwspring94@gmail.com")
-    sender_password_entry.insert(0, "kbfe gguf unuc xiwe")
-    recipient_email_entry.insert(0, "zeyadwork20@gmail.com")
-    recipient_password_entry.insert(0, "qwil tivs zown ugcy")
 
 # GUI setup
 root = tk.Tk()
